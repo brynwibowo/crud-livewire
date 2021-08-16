@@ -46,7 +46,7 @@ class Posts extends Component
     
         $this->ids = $post->id;
         $this->title = $post->title;
-        $this->lastname = $post->content;
+        $this->content = $post->content;
         
     }
 
